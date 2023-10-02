@@ -12,7 +12,7 @@ namespace VariasStrings
            string n="\u00A9 e \u2665";
            string c=@"\u00A9 e \u2665 sem UTF";
 
-           con
+           Console.WriteLine(s);
 
            
 
