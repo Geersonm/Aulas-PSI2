@@ -24,7 +24,7 @@ namespace cilindro
             v = Math.PI * Math.Pow(r,2) * a;
             sa = 2 * Math.PI * r * (r + a);
 
-            Console.WriteLine($"cilindro com {altura} de altura  e {raio} de raio tem:\n");
+            Console.WriteLine($"cilindro com {altura}cm de altura  e {raio}cm de raio tem:\n");
             Console.WriteLine($"volume {v} \n");
 
             Console.WriteLine($"Area da superficie {sa} \n");
