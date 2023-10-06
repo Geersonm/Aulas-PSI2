@@ -11,18 +11,18 @@ namespace cilindro
             string altura,raio;
         
 
-            Console. ("Introduaza a  altura");
+            Console.WriteLine ("Introduaza a  altura");
             altura= Console.ReadLine();
             Console.WriteLine("Introduza o raio");
             raio=Console.ReadLine();
 
 
-            altura=double.parse(altura);
-            raio=double.parse(raio);
+            a=double.Parse(altura);
+            r=double.Parse(raio);
 
 
             v = p * (r * r) * a;
-            sa = 2 * p * r(r + a);
+            sa = 2 * p * r* (r + a);
 
 
             Console.WriteLine($"volume {v} \n");
