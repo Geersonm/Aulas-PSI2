@@ -6,20 +6,28 @@ namespace cilindro
     {
         static void Main(string[] args)
         {
-            double a;
-            double r;
-            double p =3.1415926;
-            double v=p* (r*r)*a;
-            double sa=2*p*r(r+a);
+            double a,r,v,sa;
+            double p = 3.1415926;
+            string altura,raio;
+        
 
             Console. ("Introduaza a  altura");
-            string=Console.ReadLine(a);
+            altura= Console.ReadLine();
             Console.WriteLine("Introduza o raio");
-            string=Console.ReadLine(r);
+            raio=Console.ReadLine();
 
 
-            Console.WriteLine(v);
-            Console.WriteLine(sa);
+            altura=double.parse(altura);
+            raio=double.parse(raio);
+
+
+            v = p * (r * r) * a;
+            sa = 2 * p * r(r + a);
+
+
+            Console.WriteLine($"volume {v} \n");
+            Console.WriteLine($"cilindro com {altura} e {raio} tem:\n");
+            Console.WriteLine($"Area da superficie {sa} \n");
         }
     }
 }
