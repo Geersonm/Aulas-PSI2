@@ -36,7 +36,15 @@ namespace valoresespeciais
             Console.WriteLine(float.NegativeInfinity);
             Console.WriteLine(float.NaN);
 
+            short sMax =short.MaxValue, sMin =short.MinValue;
+            int iMax = int.MaxValue, iMin = int.MinValue;
 
+            Console.WriteLine((short)(sMax + 1));
+            Console.WriteLine((short) (sMin -1));
+            Console.WriteLine((int)(iMax +1));
+            Console.WriteLine((int)(iMin-1));
+
+            Console.WriteLine();
 
         }
     }
