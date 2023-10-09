@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.Contracts;
 
 namespace skynet
 {
@@ -7,20 +8,39 @@ namespace skynet
         static void Main(string[] args)
         {
             string p;
+            string r;
 
-        for(int i=0;i<3;i++){
+            for (int i = 0; i < 3; i++)
+            {
                 Console.WriteLine("Faz uma pergunta");
-                p=Console.ReadLine();
+                p = Console.ReadLine();
 
-                if(p=="Que horas são?"){
-                    Console.WriteLine("Falta pouco para daqui a pouco");
-                }else if(p=="Qual é o melhor jogdor do mundo?"){
-                    Console.WriteLine("É o CJ");
-                }else if(p=="Eu ssou negrão?"){
-                    Console.WriteLine("Sim");
-                }else{
-                    Console.WriteLine("Não sei");
+                switch (p)
+                {
+
+                    case "Que horas são?":
+
+                        r = "Falta pouco para daqui a pouco \n";
+                        break;
+
+                    case "Qual é o melhor jogdor do mundo?":
+
+                        r = "É o CJ \n";
+                        break;
+
+                    case "Eu ssou negrão?":
+
+                        r = "Sim \n";
+                        break;
+
+                    default:
+
+                        r = "Não sei \n";
+                        break;
+
                 }
+
+                Console.WriteLine(r);
             }
         }
     }
