@@ -10,7 +10,7 @@ namespace skynet
             string p;
             string r;
 
-            for (int i = 0; i < 3; i++)
+            do
             {
                 Console.WriteLine("Faz uma pergunta");
                 p = Console.ReadLine();
@@ -28,7 +28,7 @@ namespace skynet
                         r = "É o CJ \n";
                         break;
 
-                    case "Eu ssou negrão?":
+                    case "Eu sou negrão?":
 
                         r = "Sim \n";
                         break;
@@ -38,10 +38,11 @@ namespace skynet
                         r = "Não sei \n";
                         break;
 
-                }
 
-                Console.WriteLine(r);
-            }
+
+                        Console.WriteLine(r);
+                }
+            }while(p=="Exit");
         }
     }
 }
