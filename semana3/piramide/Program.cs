@@ -25,6 +25,7 @@ namespace piramide
 
           for (int a = 1; a <=2*l-1; a++)
           {
+            int f=0;
             Console.Write("*");
             
           }
