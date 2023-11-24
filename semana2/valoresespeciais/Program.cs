@@ -46,6 +46,10 @@ namespace valoresespeciais
 
             Console.WriteLine();
 
+           Console.WriteLine("1. Indica o que é impresso pelo seguinte código. Justifica a tua resposta"); 
+    char c = '\u00A9';
+    Console.WriteLine($@"\n{c}\n");
+
         }
     }
 }

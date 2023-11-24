@@ -10,7 +10,7 @@ namespace skynet
             string p;
             string r;
 
-            do
+            while (p != "exit")
             {
                 Console.WriteLine("Faz uma pergunta");
                 p = Console.ReadLine();
@@ -37,12 +37,9 @@ namespace skynet
 
                         r = "Não sei \n";
                         break;
-
-
-
-                        Console.WriteLine(r);
                 }
-            }while(p=="Exit");
+                Console.WriteLine(r);
+            }
         }
     }
 }

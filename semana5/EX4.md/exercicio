@@ -1,0 +1,9 @@
+No projeto, classe Program:
+Declarar e instanciar dois cronómetros, cron1 e cron2
+Iniciar contagem do tempo em cron1
+Pausar o programa durante 1 segundo:
+Thread.Sleep(1000); // Requer namespace System.Threading
+Iniciar contagem do tempo em cron2
+Pausar o programa durante mais 1 segundo
+Parar contagem do tempo nos dois cronómetros
+Mostrar no ecrã tempo decorrido em cada um dos cronómetros, em milissegundos

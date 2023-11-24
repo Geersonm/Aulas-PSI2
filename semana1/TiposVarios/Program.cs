@@ -56,7 +56,8 @@ namespace TiposVarios
             Console.WriteLine(newLine);
 
             Console.WriteLine(nmaior);
-             Console.WriteLine("resultado: {0}",resultado);
+            Console.WriteLine("resultado: {0}",resultado);
+            
 
             
 
