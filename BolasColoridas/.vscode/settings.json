@@ -1,0 +1,6 @@
+{
+    "editor.inlineSuggest.showToolbar": "onHover",
+    "cSpell.language": "pt,en,pt-PT",
+    "dotnet.preferVisualStudioCodeFileSystemWatcher": false,
+    "errorLens.problemRangeDecorationEnabled": true
+}
