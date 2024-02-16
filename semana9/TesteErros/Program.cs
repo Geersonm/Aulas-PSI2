@@ -20,7 +20,7 @@ namespace TesteErros
             }
             catch (OverflowException e)
             {
-                // Caso tenha sido inserido um número inteiro demasiado grande
+                // Caso tenha sido inserido um número inteiro demasiado grande ou demasiado pequeno
                 Console.WriteLine("Error:O número é muito grande");
             }
             catch (Exception e)

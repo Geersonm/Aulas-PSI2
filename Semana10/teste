@@ -1,0 +1,41 @@
+/*
+Static void Comprime()
+    {
+        Console.Write("Digite o nome do arquivo para comprimir: ");
+        string nomeArquivo = Console.ReadLine();
+
+        using (FileStream arquivoOriginal = File.OpenRead(nomeArquivo))
+        {
+            using (FileStream arquivoComprimido = File.Create(nomeArquivo + ".gz"))
+            {
+                using (GZipStream gzipStream = new GZipStream(arquivoComprimido, CompressionMode.Compress))
+                {
+                    arquivoOriginal.CopyTo(gzipStream);
+                }
+            }
+        }
+
+        Console.WriteLine("Arquivo comprimido com sucesso.");
+    }
+
+     static void Descomprime()
+    {
+        Console.Write("Digite o nome do arquivo para descomprimir: ");
+        string nomeArquivoComprimido = Console.ReadLine();
+
+        using (FileStream arquivoComprimido = File.OpenRead(nomeArquivoComprimido))
+        {
+            string nomeArquivoDescomprimido = nomeArquivoComprimido.Substring(0, nomeArquivoComprimido.Length - 3);
+
+            using (FileStream arquivoDescomprimido = File.Create(nomeArquivoDescomprimido))
+            {
+                using (GZipStream gzipStream = new GZipStream(arquivoComprimido, CompressionMode.Decompress))
+                {
+                    gzipStream.CopyTo(arquivoDescomprimido);
+                }
+            }
+        }
+
+        Console.WriteLine("Arquivo descomprimido com sucesso.");
+    }
+    */

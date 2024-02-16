@@ -61,18 +61,18 @@ namespace BolasColoridas
       for (int i = 0; i < bolas.Length; i++)
       {
         Console.WriteLine($"A bola {i + 1} tem: ");
-        Console.WriteLine($"Quantidade de vermelho: {cores[i].GetRed()}");
-        Console.WriteLine($"Quantidade de verde: {cores[i].GetGreen()}");
-        Console.WriteLine($"Quantidade de azul: {cores[i].GetBlue()}");
-        if(bolas[i].GetRaio()==0){
+        Console.WriteLine($"Quantidade de vermelho: {cores[i].Red}");
+        Console.WriteLine($"Quantidade de verde: {cores[i].Green}");
+        Console.WriteLine($"Quantidade de azul: {cores[i].Blue}");
+        if(bolas[i].Raio==0){
           Console.WriteLine($"A bola foi rebentada!");
-          Console.WriteLine($"Raio: {bolas[i].GetRaio()}");
+          Console.WriteLine($"Raio: {bolas[i].Raio}");
         }else{
           Console.WriteLine($"A bola não foi rebentada!");
-          Console.WriteLine($"Raio: {bolas[i].GetRaio()}");
+          Console.WriteLine($"Raio: {bolas[i].Raio}");
         }
         
-        Console.WriteLine($"Quantidade de vezes que a bola A foi atirada: {bolas[i].GetNVezes()}");
+        Console.WriteLine($"Quantidade de vezes que a bola A foi atirada: {bolas[i].NVezes}");
         Console.WriteLine("");
       }
     }
