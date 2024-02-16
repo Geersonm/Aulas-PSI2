@@ -14,6 +14,7 @@ Para cada inimigo:
     Guardar instância no array criado
 Por fim, imprimir uma lista com todos os inimigos e os seus nomes
 */
+
             int ni;
             Inimigo[] inimi;
             int d;
