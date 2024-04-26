@@ -26,8 +26,10 @@ namespace jg2
                     JogoController jogoController = new JogoController();
                     jogoController.IniciarJogo();
                     break;
-                case "2":;
-                    Estatisticas.CarregarEstatisticas();
+                case "2":
+                    JogoView me=new JogoView();
+                    me.MostrarEstats();
+                    me.CarregarEstatisticas();
                     break;
                 case "3":
                     Environment.Exit(0);

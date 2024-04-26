@@ -1,4 +1,4 @@
-using System;
+/*using System;
 using System.IO;
 
 namespace jg2{
@@ -12,6 +12,8 @@ public class EstatisticasJogo
     private int totalJogadasJogadorX;
     private int totalJogadasJogadorO;
     private int tabuleiroTotalmentePreenchido;
+    private char vencedor;
+    private int totalJogadas;
 
     public EstatisticasJogo()
     {
@@ -45,8 +47,9 @@ public class EstatisticasJogo
         }
     }
 
-    public void AtualizarEstatisticas(char vencedor, int totalJogadas)
+    public void AtualizarEstatisticas()
     {
+        
         if (vencedor == 'X')
         {
             vitoriasJogadorX++;
@@ -80,14 +83,6 @@ public class EstatisticasJogo
         }
     }
 
-    public void MostrarEstatisticas()
-    {
-        Console.WriteLine("Estatísticas do Jogo:");
-        Console.WriteLine($"Número de vitórias do jogador X: {vitoriasJogadorX}");
-        Console.WriteLine($"Número de vitórias do jogador O: {vitoriasJogadorO}");
-        Console.WriteLine($"Número total de jogadas do jogador X: {totalJogadasJogadorX}");
-        Console.WriteLine($"Número total de jogadas do jogador O: {totalJogadasJogadorO}");
-        Console.WriteLine($"Número de vezes que o tabuleiro foi totalmente preenchido: {tabuleiroTotalmentePreenchido}");
-    }
 }
 }
+*/
