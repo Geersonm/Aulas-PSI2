@@ -34,7 +34,7 @@ namespace BolasColoridas
         {
             get
             {
-                return cor.Grau;
+                return Cor.Grau;
             }
 
 

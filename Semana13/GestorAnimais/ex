@@ -3,7 +3,7 @@ Criar projeto GestorAnimais na solução Semana13
 ● Nome, do tipo string, só de leitura
 ● Peso, do tipo int
 ◆ O programa deve gerar uma lista de animais, com as seguintes funcionalidades:
-● Inserir animal (nome e peso) 
+● Inserir animal (nome e peso)  
 ● Listar todos os animais, indicando nome e peso
 ● Listar animais com peso maior que valor indicado pelo utilizador
 ○ Criar o método GetAnimaisComPesoMaiorQue()
